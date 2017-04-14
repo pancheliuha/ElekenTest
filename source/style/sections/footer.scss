@@ -1,0 +1,19 @@
+.footer__content {
+    @extend .header__content;
+    border: none;
+}
+
+.footer__content-wrapper {
+    @extend .header__content-wrapper;
+}
+
+.copyright {
+    height: 100px;
+    line-height: 100px;
+}
+
+.copyright__text {
+    @extend %fontLato;
+    font-size: 12px;
+    color: rgba($text, .5);
+}

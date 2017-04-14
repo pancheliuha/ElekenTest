@@ -1,0 +1,79 @@
+.content {
+    text-align: center;
+    overflow: hidden;
+}
+
+.content__head {
+    font-family: 'playfair_display',serif;
+    font-weight: 100;
+    font-size: 58px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.nav__list_contant {
+    width: 700px;
+}
+
+.content__items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__item-wrapper {
+    width: 23%;
+    margin-bottom: 35px;
+}
+
+.content__item-img-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.content__item-img {
+    width: 100%;
+}
+
+.sale__out {
+    text-decoration: line-through;
+}
+
+.sale__price {
+        color: #fc411d;
+        text-decoration: none !important;
+}
+
+.content__item-description {
+    font-family: 'playfair_display', serif;
+    font-size: 16px;
+}
+
+.new__item {
+    position: absolute;
+    top: 26px;
+    left: 26px;
+    width: 48px;
+    height: 26px;
+    line-height: 26px;
+    @extend %fontLato;
+    color: rgba(#fff, .8);
+    font-size: 11px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: linear-gradient(to right, #2088db 0% ,rgba(#2088db, .8)  50%);
+}
+
+.content__item-price {
+    color: rgba($text, .5);
+}
+
+.load__more {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    @extend %fontLato;
+    font-size: 11px;
+    color: rgba($text, .5);
+    margin-bottom: 60px;
+}
